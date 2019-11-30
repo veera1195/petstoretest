@@ -25,7 +25,7 @@ public class HomePageTest {
 	  driver = new ChromeDriver();
 	  driver.get("http://34.69.13.189:32770/PetStoreWebApp/");
 		driver.manage().window().maximize();
-		 driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
+		 driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
   }
                       
   @Test
