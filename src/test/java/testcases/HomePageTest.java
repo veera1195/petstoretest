@@ -21,7 +21,7 @@ public class HomePageTest {
   
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.chrome.driver", "chromedriver");
+	  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.get("http://34.69.13.189:32770/PetStoreWebApp/");
 		driver.manage().window().maximize();
