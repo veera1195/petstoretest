@@ -23,7 +23,7 @@ public class HomePageTest {
   public void beforeTest() {
 	  System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	  driver = new ChromeDriver();
-	  driver.get("http://34.69.13.189:32770/PetStoreWebApp/");
+	  driver.get("http://localhost:9090");
 		driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
   }
